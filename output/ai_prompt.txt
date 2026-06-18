@@ -1,0 +1,43 @@
+You are an accounting assistant.
+Based on the reconciliation results below, write a short bank reconciliation summary.
+
+Rules:
+- Every number you mention MUST exactly match the numbers provided below. Do not estimate or round.
+- Separate matched transactions, bank-only transactions, book-only transactions,
+  possible duplicates, amount mismatches, and outstanding items into their own short paragraphs.
+- Use a professional but simple tone suitable for a small business owner.
+- End with a short "Recommended Next Steps" section (3 bullet points max), and explicitly
+  call out that Amount Mismatch and Possible Duplicate items need human review before the
+  period can be closed.
+
+=== Status Summary ===
+            Status  Count
+  Outstanding Item   13.0
+           Matched    7.0
+Possible Duplicate    2.0
+         Bank Only    2.0
+   Amount Mismatch    1.0
+         Book Only    1.0
+
+=== Sample transactions per status ===
+Bank Ref Book Ref Date (Bank) Date (Book) Description / Vendor  Amount (Bank)  Amount (Book)  Status                          Note
+    B001     L001  2026-06-01  2026-06-01 STARBUCKS STORE 4521          -18.5          -18.5 Matched Amount, date, and payee agree
+    B002     L002  2026-06-02  2026-06-02     Client Payment A         1200.0         1200.0 Matched Amount, date, and payee agree
+
+Bank Ref Book Ref Date (Bank) Date (Book) Description / Vendor  Amount (Bank)  Amount (Book)          Status                                               Note
+    B003     L003  2026-06-04  2026-06-05   OFFICE DEPOT #1133          -85.2          -85.0 Amount Mismatch Amount differs by 0.20 (possible data entry error)
+
+Bank Ref Book Ref Date (Bank) Date (Book) Description / Vendor  Amount (Bank)  Amount (Book)             Status                                                              Note
+    B007     L007  2026-06-08  2026-06-08     Client Payment C          980.0          980.0 Possible Duplicate Same amount and date appears more than once on the bank statement
+    B008      NaN  2026-06-08         NaT     Client Payment C          980.0            NaN Possible Duplicate Same amount and date appears more than once on the bank statement
+
+Bank Ref Book Ref Date (Bank) Date (Book)    Description / Vendor  Amount (Bank)  Amount (Book)           Status                                               Note
+    B011     L010  2026-06-11  2026-06-12        Client Payment D         1500.0         1500.0 Outstanding Item Date differs by 1 day(s) (standard clearing delay)
+    B012     L011  2026-06-12  2026-06-13 UBER TRIP HELP.UBER.COM          -23.4          -23.4 Outstanding Item Date differs by 1 day(s) (standard clearing delay)
+
+Bank Ref Book Ref Date (Bank) Date (Book) Description / Vendor  Amount (Bank)  Amount (Book)    Status                                      Note
+    B016      NaN  2026-06-16         NaT     Bank Service Fee          -35.0            NaN Bank Only No corresponding entry found in the books
+    B024      NaN  2026-06-24         NaT          Apple Store          -99.0            NaN Bank Only No corresponding entry found in the books
+
+Bank Ref Book Ref Date (Bank) Date (Book)  Description / Vendor  Amount (Bank)  Amount (Book)    Status                                               Note
+     NaN     L022         NaT  2026-06-25 Office Chair Purchase            NaN         -189.0 Book Only No corresponding entry found on the bank statement

@@ -1,0 +1,24 @@
+Date,Vendor/Customer,Account,Amount,Book Ref
+2026-06-01,Starbucks,Meals Expense,-18.50,L001
+2026-06-02,Client A,Accounts Receivable,1200.00,L002
+2026-06-05,Office Depot,Office Supplies,-85.00,L003
+2026-06-05,Amazon Web Services,Software Expense,-220.00,L004
+2026-06-06,Client B,Accounts Receivable,750.00,L005
+2026-06-07,Zoom,Software Expense,-14.99,L006
+2026-06-08,Client C,Accounts Receivable,980.00,L007
+2026-06-09,WeWork,Rent Expense,-450.00,L008
+2026-06-10,Adobe,Software Expense,-52.99,L009
+2026-06-12,Client D,Accounts Receivable,1500.00,L010
+2026-06-13,Uber,Travel Expense,-23.40,L011
+2026-06-14,LinkedIn,Software Expense,-29.99,L012
+2026-06-15,Client E,Accounts Receivable,640.00,L013
+2026-06-16,Costco,Office Supplies,-310.75,L014
+2026-06-18,Client F,Accounts Receivable,1120.00,L015
+2026-06-19,Google Ads,Marketing Expense,-300.00,L016
+2026-06-20,Client G,Accounts Receivable,890.00,L017
+2026-06-21,FedEx,Shipping Expense,-45.60,L018
+2026-06-22,Client H,Accounts Receivable,2200.00,L019
+2026-06-23,Slack,Software Expense,-12.50,L020
+2026-06-24,Client I,Accounts Receivable,560.00,L021
+2026-06-25,Office Chair Purchase,Office Supplies,-189.00,L022
+2026-06-26,Client J,Accounts Receivable,1340.00,L023

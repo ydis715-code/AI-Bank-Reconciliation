@@ -1,0 +1,36 @@
+Bank Reconciliation Summary - June 2026
+
+Matched Transactions
+7 transactions matched cleanly across the bank statement and the books, with no
+differences in amount, date, or payee. These require no further action.
+
+Outstanding Items
+13 transactions were recorded by both the bank and the books, but the bank cleared
+them one day later than the books recorded them. This is a normal timing difference
+(e.g. payments processed after a weekend or a short bank delay) and does not require
+correction once both dates fall within the same reconciliation period.
+
+Bank Only
+2 transactions appear on the bank statement with no matching entry in the books: a
+$35.00 bank service fee and a $99.00 charge from Apple Store. Both should be recorded
+in the general ledger.
+
+Book Only
+1 transaction was recorded in the books with no matching entry on the bank statement:
+a $189.00 office chair purchase, likely a check that has not yet cleared.
+
+Amount Mismatch
+1 transaction shows a small discrepancy: an Office Depot charge recorded as $85.20 by
+the bank but $85.00 in the books, a difference of $0.30. This should be corrected in
+the books.
+
+Possible Duplicate
+2 transactions for Client Payment C, both for $980.00 on the same date, appear on the
+bank statement. Only one of these has a matching book entry. This may indicate a
+duplicate payment was received, or that the books are missing a second legitimate
+payment, and should be confirmed with the client before the period is closed.
+
+Recommended Next Steps
+- Investigate the Client Payment C duplicate with the client before closing the period.
+- Correct the $0.30 Office Depot discrepancy in the books.
+- Record the $35.00 bank fee and $99.00 Apple Store charge in the general ledger.
